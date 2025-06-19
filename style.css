@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+nav {
+    /* height: 20px; */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 0.5px solid rgb(126, 126, 126); */
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    ;
+}
+
+img {
+    width: 100px;
+    justify-content: space-around;
+}
+
+.menus {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.landing {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.html1 img {
+    width: 150px;
+    height: 200px
+}
+
+.post {
+    /* margin-bottom: 20px; */
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 650px;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+.all_text {
+    padding-left: 10px;
+
+}
+
+.links {
+    color: #272424;
+}
+
+.links:hover {
+    color: rgb(64, 200, 242);
+}
+
+.author-name:hover {
+    color: rgb(64, 200, 242);
+}
+
+.post-title {
+    color: #000000;
+    width: fit-content;
+    padding-bottom: 8px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+.post-preview {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    padding-bottom: 8px;
+}
+
+.read_more a {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.read_more {
+    padding-bottom: 16px;
+    width: fit-content;
+}
+
+.date {
+    font-family: Lato;
+    font-weight: 200;
+    font-size: 13px;
+    color: #a3a3a3;
+    padding-bottom: 16px;
+    width: fit-content;
+}
+
+.author-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.author-photo {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.author-name {
+    width: fit-content;
+    font-family: Lato;
+    color: rgb(17, 99, 153);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}

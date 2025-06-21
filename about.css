@@ -55,7 +55,8 @@ a {
 
 .about-me-container {
     padding: 20px;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
     
     
 }
@@ -71,6 +72,7 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    align-items: start;
     /* padding: 20px; */
 }
 
@@ -85,6 +87,7 @@ a {
 
 .image-section {
     display: flex;
+    
     flex: 1;
 }
 

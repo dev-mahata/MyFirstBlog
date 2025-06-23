@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
-
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -43,13 +43,66 @@ a {
 }
 
 .landing {
-    display: flex;
-    /* gap: 10px; */
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-    padding-right: 30px;
     width: 100%;
+    padding: 20px 50px 20px 50px;
+    border: 0.5px solid black;
 }
 
+.profile {
+    color: #434447;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #7e7e7e;
+}
+
+.sub-profile {
+    color: #7e7e7e;
+}
+
+.profile-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.image-section {
+    padding: 15px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.image-section h2 {
+    color: #4d4d4e;
+}
+
+.image-section p {
+    color: rgb(53, 255, 35);
+}
+
+.image-section img {
+    margin: 15px 20px 15px 20px;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: 20px solid grey;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bio-section {
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.title {
+    color: #18191a;
+}
+
+.subtitle {
+    
+}
